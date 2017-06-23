@@ -2,6 +2,7 @@
 
 ## 运行 Demo 
 
+
 本站使用 Jekyll 编写，并使用 babel 编译 ECMAScript6，因此必须安装 ruby >= 2.0 和 nodejs.
 
 ```
@@ -12,9 +13,9 @@ jekyll build
 为正常运行，一些动态数据文件需要下载
 
 ```
-wget https://mirrors.tuna.tsinghua.edu.cn/static/tunasync.json -O static/tunasync.json
-wget https://mirrors.tuna.tsinghua.edu.cn/static/tunet.json -O static/tunet.json
-wget https://mirrors.tuna.tsinghua.edu.cn/static/isoinfo.json -O static/isoinfo.json
+wget https://mirrors.njcit.cn/static/sync.jspn -O static/sync.json
+wget https://mirrors.njcit.cn/static/disk.json -O static/disk.json
+wget https://mirrors.njcit.cn/static/isoinfo.json -O static/isoinfo.json
 ```
 
 之后 `jekyll serve` 即可运行 demo.
@@ -39,7 +40,7 @@ wget https://mirrors.tuna.tsinghua.edu.cn/static/isoinfo.json -O static/isoinfo.
 ### 特殊用法
 
 #### 表单选择
-例如 <http://mirrors.tuna.tsinghua.edu.cn/help/tensorflow/> 中，通过表单选择操作系统和版本号，建议直接使用 Vue.js
+例如 <http://mirrors.njcit.cn/help/tensorflow/> 中，通过表单选择操作系统和版本号，建议直接使用 Vue.js
 
 
 
