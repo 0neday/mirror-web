@@ -1,0 +1,7 @@
+[{"name":"CentOS","is_master":true,"is_new":true,"status":"success","last_update":"2016-12-26 00:20:22 +0800","url": "https://mirrors.njcit.cn/centos","upstream":"rsync://mirrors.tuna.tsinghua.edu.cn/centos","size":"unknown"}
+,{"name":"Epel","is_master":true,"is_new":true,"status":"success","last_update":"2016-12-26 00:00:43 +0800","url": "https://mirrors.njcit.cn/epel","upstream":"https://dl.fedoraproject.org/pub/epel/","size":"unknown"}
+,{"name":"Nginx","is_master":true,"is_new":true,"status":"success","last_update":"2016-12-26 00:33:43 +0800","url": "https://mirrors.njcit.cn/nginx","upstream":"https://nginx.org/packages/centos/","size":"unknown"}
+,{"name":"MySQL","is_master":true,"is_new":true,"status":"success","last_update":"2016-12-26 00:33:43 +0800","url": "https://mirrors.njcit.cn/mysql","upstream":" https://cdn.mysql.com//Downloads/MySQL-5.7/mysql-boost-5.7.17.tar.gz","size":"unknown"}
+,{"name":"OpenStack","is_master":true,"is_new":true,"status":"syncing","last_update":"2016-12-26 10:33:43 +0800","url": "https://mirrors.njcit.cn/openstack","upstream":"https://repos.fedorapeople.org/repos/openstack/","size":"unknown"}
+
+]

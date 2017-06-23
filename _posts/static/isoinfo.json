@@ -1,0 +1,82 @@
+[
+  {
+    "distro": "CentOS",
+    "urls": [
+	  {
+        "url": "/centos/7.3.1611/isos/x86_64/CentOS-7-x86_64-Minimal-1611.iso",
+        "name": "7.3 (x86_64, Minimal)"
+      },
+	  {
+        "url": "/centos/7.3.1611/isos/x86_64/CentOS-7-x86_64-DVD-1611.iso",
+        "name": "7.3 (x86_64, DVD)"
+      },
+	  {
+        "url": "/centos/7.3.1611/isos/x86_64/CentOS-7-x86_64-Everything-1611.iso",
+        "name": "7.3 (x86_64, Everything)"
+      },
+	  {
+        "url": "/centos/6.8/isos/x86_64/CentOS-6.8-x86_64-minimal.iso",
+        "name": "6.8 (x86_64, Minimal)"
+      },
+      {
+        "url": "/centos/6.8/isos/x86_64/CentOS-6.8-x86_64-bin-DVD1.iso",
+        "name": "6.8 (x86_64, bin-DVD1)"
+      },
+      {
+        "url": "/centos/6.8/isos/x86_64/CentOS-6.8-x86_64-bin-DVD2.iso",
+        "name": "6.8 (x86_64, bin-DVD2)"
+      },
+	   {
+        "url": "/centos/5.11/isos/x86_64/CentOS-5.11-x86_64-netinstall.iso",
+        "name": "5.11 (x86_64, NetInstall)"
+      },
+	  {
+        "url": "/centos/5.11/isos/x86_64/CentOS-5.11-x86_64-bin-DVD-1of2.iso",
+        "name": "5.11 (x86_64, bin-DVD-1of2)"
+      },
+      {
+        "url": "/centos/5.11/isos/x86_64/CentOS-5.11-x86_64-bin-DVD-2of2.iso",
+        "name": "5.11 (x86_64, bin-DVD-2of2)"
+      }
+    ],
+    "category": "os"
+  },
+  {
+    "distro": "Kali",
+    "urls": [
+	  {
+        "url": "https://mirrors.njcit.cn/kali/kali-linux-2.0-amd64.iso",
+        "name": "Kali Linux 2.0"
+      }
+    ],
+    "category": "os"
+  },
+  {
+    "distro": "Mac osx",
+    "urls": [
+	  {
+        "url": "https://mirrors.njcit.cn/mac/OS%20X%20El%20Capitan%2010.11.3%20%2815D21%29%20Lazy%20Installer.cdr",
+        "name": "Mac OSX EI Capitan 10.11.3 Lazy 仅供内部下载 "
+      }
+    ],
+    "category": "os"
+  },
+  {
+    "distro": "App Code",
+    "urls": [
+	  {
+        "url": "/app/rvm-1.27.0.tgz",
+        "name": "rvm 1.27.0"
+      },
+	  {
+        "url": "/app/ruby-2.2.4.tar.bz2",
+        "name": "Ruby 2.2.4"
+      },
+	  {
+        "url": "https://mirrors.njcit.cn/mysql/mysql-boost-5.7.17.tar.gz",
+        "name": "MySQL 5.7.17 with Boost Headers"
+      }
+    ],
+    "category": "app"
+  }
+]

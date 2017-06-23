@@ -1,0 +1,45 @@
+---
+permalink: /thankyou/
+---
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+<body>
+	{% include nav.html %}
+
+<div id="news-page">
+	<div class="spacing"></div>
+	<div class="container">
+	  <div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<div>
+					<div id="news-content">
+						<article>
+							<div class="head" id="{{news.slug}}">
+								<h3># 致 谢</h3>
+							</div>
+							<div class="meta">
+								<span class="fa fa-calendar"></span> 2016-12-08 <span class="fa fa-user" style="margin-left: 1em"> hongs </span>
+							</div>
+							<div class="content">
+								<pre><code>  本站主页设计参照清华大学镜像站[<a href="https://github.com/tuna/mirror-web" target="_blank">主页源码</a>]，感谢清华大学为开源事业所做出的贡献，感谢南信院信息中心各位老师的大力支持。</code></pre>
+							</div>
+						</article>
+						<hr />
+					</div>
+				</div>
+			</div><!-- news content -->
+			<div class="col-md-2"></div>
+	  </div>
+	</div><!--/container -->
+	<div class="spacing"></div>
+</div>
+
+	{% include footer.html %}
+</body>
+
+</html>
+<!--
+vim: ts=2 sts=2 sw=2 noexpandtab
+-->
