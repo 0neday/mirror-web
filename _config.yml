@@ -1,0 +1,43 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: 南信开源镜像站
+brand: Tsinghua Open Source Mirrors
+baseurl: "" # the subpath of your site, e.g. /blog
+permalink: "/:categories/:title/"
+url: "http://mirrors.njcit.cn"
+
+# Build settings
+highlighter: rouge
+markdown: kramdown 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+sass:
+    sass_dir: static/css
+
+gems:
+    - jekyll-babel
+    - jekyll-sitemap
+
+babel_js_extensions: 'es6'
+
+exclude: [Gemfile, Gemfile.lock, README.md, gen_robot.sh, vendor, geninfo/]
+
+# Content Related
+new_mirrors: [CentOS,Epel,Maven]
+
+descriptions:
+  Epel: 'Linux 第三方优秀软件包仓库'
+  Mac OS: 'EI Capitan 10.11.3 Lazy & Sierra 10.12.2 '
+  Nginx: '优秀的开源 Web Server'
+  MySQL: 'MySQL数据库'
+  OpenStack: '开源云存储解决方案'
+
+# vim: ts=2 sts=2 sw=2 expandtab
